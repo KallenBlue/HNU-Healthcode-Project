@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://124.222.180.235:3306/healthcode?serverTimezone=UTC
+      username: healthcode
+      password: 123456
